@@ -13,6 +13,7 @@
 		4632CA851E84B8D3002FA020 /* swiftDome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4632CA831E84B8D3002FA020 /* swiftDome.xcdatamodeld */; };
 		4632CA871E84B8D3002FA020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4632CA861E84B8D3002FA020 /* Assets.xcassets */; };
 		4632CA8A1E84B8D3002FA020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4632CA881E84B8D3002FA020 /* LaunchScreen.storyboard */; };
+		463E46261E84E53300A819D3 /* nextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E46251E84E53300A819D3 /* nextVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4632CA861E84B8D3002FA020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4632CA891E84B8D3002FA020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4632CA8B1E84B8D3002FA020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463E46251E84E53300A819D3 /* nextVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nextVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4632CA7C1E84B8D3002FA020 /* AppDelegate.swift */,
 				4632CA7E1E84B8D3002FA020 /* ViewController.swift */,
+				463E46251E84E53300A819D3 /* nextVC.swift */,
 				4632CA801E84B8D3002FA020 /* Main.storyboard */,
 				4632CA861E84B8D3002FA020 /* Assets.xcassets */,
 				4632CA881E84B8D3002FA020 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				4632CA7F1E84B8D3002FA020 /* ViewController.swift in Sources */,
 				4632CA7D1E84B8D3002FA020 /* AppDelegate.swift in Sources */,
 				4632CA851E84B8D3002FA020 /* swiftDome.xcdatamodeld in Sources */,
+				463E46261E84E53300A819D3 /* nextVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +307,7 @@
 				4632CA901E84B8D3002FA020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

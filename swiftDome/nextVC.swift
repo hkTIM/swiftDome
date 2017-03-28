@@ -10,9 +10,12 @@ import UIKit
 
 class nextVC: UIViewController {
 
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = false
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor=UIColor.white
         // Do any additional setup after loading the view.
     }
 
